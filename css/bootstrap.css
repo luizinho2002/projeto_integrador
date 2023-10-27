@@ -299,6 +299,9 @@ template {
   .navbar {
     display: none;
   }
+  .navbarcategoria{
+    display:flex;
+  }
   .badge {
     border: 1px solid #000;
   }
