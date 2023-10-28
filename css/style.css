@@ -46,12 +46,16 @@ body {
 }
 
 .navbarcategoria{
-  color:8338EC ;
+  color:8338EC;
   background-color: white;
-  padding: 5px;
-  
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
 
 }
+
 .custom-footer {
   padding-top: 1px; /* Ajuste conforme necessário */
   padding-bottom: 1px; /* Ajuste conforme necessário */
@@ -105,10 +109,13 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+ 
 }
 
 li {
   float: left;
+  text-align: center;
+
 }
 
 li a {
@@ -117,8 +124,15 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 li a:hover {
   background-color: #ddd;
+}
+
+.nav-bar{
+  text-align: center;
+  list-style-type: none;
+  align-items: center;
 }
