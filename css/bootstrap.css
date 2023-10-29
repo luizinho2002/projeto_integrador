@@ -3831,7 +3831,8 @@ tbody.collapse.show {
 .nav-link {
   display: block;
   padding: 0.5em 1em;
-}
+  
+  }
 
 .nav-link:focus, .nav-link:hover {
   text-decoration: none;
@@ -9170,7 +9171,7 @@ a.text-muted:focus, a.text-muted:hover {
 }
 
 .text-primary {
-  color: #0275d8 !important;
+  color: white !important;
 }
 
 a.text-primary:focus, a.text-primary:hover {

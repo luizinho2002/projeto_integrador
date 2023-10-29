@@ -46,15 +46,19 @@ body {
 }
 
 .navbarcategoria{
-  color:8338EC;
-  background-color: white;
-  padding: 0px;
+  color:white;
+  width: 100vw; /* Garanta que o menu ocupe toda a largura */
+  height: 50px;
+  background-color: #8A2BE2;
   text-align: center;
   align-items: center;
   flex-direction: column;
   display: flex;
-
+  padding: 0; /* Remova o preenchimento padrão */
+  margin: auto; /* Remova as margens para garantir que o menu ocupe toda a largura */
+  
 }
+
 
 .custom-footer {
   padding-top: 1px; /* Ajuste conforme necessário */
@@ -91,19 +95,6 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-
-
-
-
-
-nav {
-  height: 50px; /* Altura do menu */
-  width: 100vw; /* Garanta que o menu ocupe toda a largura */
-  background-color: #f0f0f0;
-  padding: 0; /* Remova o preenchimento padrão */
-  margin: 0; /* Remova as margens para garantir que o menu ocupe toda a largura */
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -115,8 +106,7 @@ ul {
 li {
   float: left;
   text-align: center;
-
-}
+ }
 
 li a {
   display: block;
@@ -129,10 +119,24 @@ li a {
 
 li a:hover {
   background-color: #ddd;
+  
 }
 
 .nav-bar{
   text-align: center;
   list-style-type: none;
   align-items: center;
+}
+
+.boxnav2{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  scale: 1.04;
+  transition: all 0.4s ease-in-out;
+  border: solid #8338EC;
+  flex-direction: column;
+ 
+}
+
+.navbarcategoria li a{
+  color: white;
 }
