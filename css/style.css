@@ -53,9 +53,10 @@ body {
   text-align: center;
   align-items: center;
   flex-direction: column;
-  display: flex;
-  padding: 0; /* Remova o preenchimento padrão */
-  margin: auto; /* Remova as margens para garantir que o menu ocupe toda a largura */
+  display: block;
+  padding-left: 5px; /* Remova o preenchimento padrão */
+  padding-right: 5px;
+  margin:auto; /* Remova as margens para garantir que o menu ocupe toda a largura */
   
 }
 
@@ -109,11 +110,14 @@ li {
  }
 
 li a {
-  display: block;
+  display: flex;
   color: #000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
   
 }
 
@@ -126,6 +130,8 @@ li a:hover {
   text-align: center;
   list-style-type: none;
   align-items: center;
+  padding: 0;
+  text-transform: uppercase;
 }
 
 .boxnav2{
@@ -139,4 +145,13 @@ li a:hover {
 
 .navbarcategoria li a{
   color: white;
+}
+
+.navprincipal{
+padding: 0;
+ 
+}
+
+.nav-link{
+  padding: 0;
 }

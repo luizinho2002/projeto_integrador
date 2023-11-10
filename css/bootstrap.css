@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-}
+ }
 
 article,
 aside,
@@ -823,8 +823,8 @@ pre code {
 
 .container-fluid {
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 100%;
+  margin-right: 100%;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -3830,8 +3830,8 @@ tbody.collapse.show {
 
 .nav-link {
   display: block;
-  padding: 0.5em 1em;
-  
+  padding: 0;
+    
   }
 
 .nav-link:focus, .nav-link:hover {
