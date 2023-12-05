@@ -2,7 +2,6 @@
   background-color: #8338EC !important;
 }
 
-
 .nav-link-white {
   color: white !important;
 }
@@ -42,6 +41,7 @@ img {
 }
 
 .card-text {
+  
   font-size: 12px;
 }
 
@@ -120,7 +120,7 @@ li a:hover {
 .nav-link:hover {
   scale: 1.02;
   transition: all 0.4s ease-in-out;
-} 
+}
 
 header {
   background-color: #8338EC;
